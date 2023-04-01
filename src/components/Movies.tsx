@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "../../../frontend/src/data/MovieData.json";
+import data from "../../../plswork/src/data/MovieData.json";
 
 const movieData = data.MovieDataSample;
 
@@ -8,11 +8,11 @@ export const Movies = () => {
   return (
     <div className="App-header">
       <br></br>
-      <h1>Movie Collection!!!</h1>
+      <h1>My Sweet Movie Collection!</h1>
 
       <br></br>
       <div>
-        <table className="table table-striped table-hover table-dark">
+        <table className="table table-striped table-hover table-light">
           <thead>
             <tr>
               <th scope="col">Title</th>
